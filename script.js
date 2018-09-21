@@ -259,7 +259,7 @@ var ticket_code = '';
 
 axios.delete(`${baseUrl}/tickets/${ticket_code}?api_key=${key}`)
 .then(function(response) {
-    console.log(response.data);o
+    console.log(response.data);
     console.log(`Data with ticket code ${ticket_code} has been deleted`);
 })
 .catch(function(error) {
