@@ -1,4 +1,4 @@
-// var { key } = require('./access_key');
+var { key } = require('./access_key');
 
 var baseUrl = `http://dct-api-data.herokuapp.com`;
 
